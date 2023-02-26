@@ -9,5 +9,5 @@
 }
 
 .btn-outline {
-  @apply text-[#292D32] hover:text-[#DFDFDF] text-center py-3 px-7 border-[1px] border-[#292D32] hover:bg-[#292D32] rounded-sm;
+  @apply text-[#292D32] hover:text-[#DFDFDF] text-center py-3 px-7 border-[2px] border-[#292D32] hover:bg-[#292D32] rounded-md;
 }

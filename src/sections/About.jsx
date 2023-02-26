@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section className='w-full'>
       <div
-        className={`${styles.section} max-w-[600px] py-8 md:py-[200px] px-4 sm:px-0`}
+        className={`${styles.section} max-w-[600px] py-8 md:pt-[200px] px-4 sm:px-0`}
       >
         <div
           className={`${styles.flexBetween} items-start flex-col md:flex-row gap-10 md:gap-[124px]`}
