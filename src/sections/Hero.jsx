@@ -8,9 +8,7 @@ const Hero = () => {
       <div
         className={`${styles.section} max-w-[600px] py-3 sm:py-8 px-4 sm:px-0`}
       >
-        <div
-          className={`${styles.flexCenter} flex-col items-center gap-6 sm:gap-10`}
-        >
+        <div className={`${styles.flexCenter} flex-col items-center gap-10`}>
           <div
             className={`${styles.flexCenter} flex-col items-center text-center`}
           >
@@ -24,14 +22,14 @@ const Hero = () => {
             <button className='btn-dark'>Join The NFTs Revolution</button>
           </div>
           <div className='flex flex-col items-center sm:flex-row gap-4'>
-            <div className='w-3/4 sm:flex-[36%]'>
+            <div className='sm:flex-[36%]'>
               <img
                 src={NFT1}
                 alt='nft1'
                 className='rounded-md object-contain'
               />
             </div>
-            <div className='w-3/4 flex-[64%]'>
+            <div className='flex-[64%]'>
               <img
                 src={NFT2}
                 alt='nft2'
