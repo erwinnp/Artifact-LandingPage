@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <header className='w-full'>
       <div
-        className={`${styles.section} max-w-[600px] py-2 sm:py-8 px-4 sm:px-0`}
+        className={`${styles.section} max-w-[600px] py-3 sm:py-8 px-4 sm:px-0`}
       >
         <nav className={`${styles.flexBetween} items-center`}>
           <div className={`${styles.flexCenter} items-center`}>
