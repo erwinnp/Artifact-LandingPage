@@ -1,8 +1,15 @@
 import styles from '../style'
 import NFT1 from '../assets/nft1.jpg'
 import NFT2 from '../assets/nft2.jpg'
+import SocialProof from '../components/SocialProof'
 
 const Hero = () => {
+  const data = [
+    { amount: '15.7K', title: 'Running Action' },
+    { amount: '31.7K', title: 'Collectible Artwork' },
+    { amount: '16.9K', title: 'Peoples Join' },
+  ]
+
   return (
     <section className='w-full'>
       <div
@@ -36,6 +43,20 @@ const Hero = () => {
                 className='rounded-md object-contain'
               />
             </div>
+          </div>
+          <div
+            className={`w-full ${styles.flexCenter} items-center flex-col gap-4 sm:gap-12 sm:flex-row py-4`}
+          >
+            <div className={`w-full sm:w-1/2 ${styles.flexBetween} gap-4`}>
+              {data.map((content, index) => (
+                <SocialProof
+                  key={index}
+                  amount={content.amount}
+                  title={content.title}
+                />
+              ))}
+            </div>
+            <div className='w-full sm:w-3/4 h-[4px] rounded-md bg-[#292D32]' />
           </div>
         </div>
       </div>
