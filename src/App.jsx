@@ -4,6 +4,7 @@ import About from './sections/About'
 import Features from './sections/Features'
 import Hero from './sections/Hero'
 import Newest from './sections/Newest'
+import Newsletter from './sections/Newsletter'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <About />
       <Features />
       <Newest />
+      <Newsletter />
     </>
   )
 }
